@@ -18,7 +18,7 @@ Torchaudio version: 2.4.1+cu121
 nvcc --version
 ```
 
-3. 安装对应的 ```torch torchvision torchaudio```
+3. 安装对应的 ```torch torchvision torchaudio ，记住cuda 版本换成自己对应的版本。```
 ``` sh
 pip install torch==2.4.1+cu121 torchvision==0.19.1+cu121 torchaudio==2.4.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
 ```
