@@ -29,8 +29,7 @@ pip install torch==2.4.1+cu121 torchvision==0.19.1+cu121 torchaudio==2.4.1+cu121
 ``` sh
 git clone https://github.com/X-T-E-R/GPT-SoVITS-Inference.git
 ```
-需要先创建语音模型，直接双击bat文件运行打开网页，在网页界面创建模型，再运行程序。  
-或者在本地新建一个存放模型的文件夹 trained，将下载到的模型放到该目录下，运行程序。  
+
   
 5. 拷贝程序文件到本地
 ``` sh
@@ -47,7 +46,7 @@ cd .\GPT-SoVITS-Inference\
 pip install -r requirement.txt
 ```
 ### FunASR
-7. 该模型需要 modelscope
+7. FunASR模型需要 modelscope
 ``` sh
 pip install modelscope
 ```
@@ -66,5 +65,9 @@ git clone https://www.modelscope.cn/iic/speech_fsmn_vad_zh-cn-16k-common-pytorch
 DASHSCOPE_API_KEY = 我的 API-KEY
 ```  
 当然也可以选择其它模型进行调用，之后我计划采用本地大模型进行微调，看情况~ 
+  
+运行程序前需要先创建语音模型  
+直接双击bat文件运行打开网页，在网页界面创建模型。  
+或者在本地新建一个存放模型的文件夹 trained，将下载到的模型放到该目录下。  
 
 #### 完成
