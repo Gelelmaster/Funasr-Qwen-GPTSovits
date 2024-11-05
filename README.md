@@ -30,6 +30,7 @@ git clone https://github.com/Gelelmaster/Funasr-Qwen-GPTSovits.git
 ```
 5. 安装依赖，``` requirements.txt 不完整，根据提示安装对应依赖。```
 ``` sh
+cd .\Funasr-Qwen-GPTSovits\
 pip install -r requirement.txt
 ```
 ### FunASR
