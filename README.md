@@ -63,7 +63,12 @@ git clone https://www.modelscope.cn/iic/speech_fsmn_vad_zh-cn-16k-common-pytorch
 10. 根据对应模型这里是 [Qwen-turbo-Turbo-2024-09-19](https://bailian.console.aliyun.com/?spm=5176.29619931.J__Z58Z6CX7MY__Ll8p1ZOR.1.4a3b59fcy2QO90#/model-market/detail/qwen-turbo-0919?tabKey=sdk) 的官方文档获取 API-KEY，然后在系统环境变量里配置
 ``` sh
 DASHSCOPE_API_KEY = 我的 API-KEY
-```  
+```
+
+该模型需要调用 ``` openai ``` 模块  
+``` sh
+pip install openai
+```
 当然也可以选择其它模型进行调用，之后我计划采用本地大模型进行微调，看情况~ 
   
 运行程序前需要先创建语音模型  
